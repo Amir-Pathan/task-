@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react";
 
 import Box from '@mui/material/Box';
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import Comp2 from "../comp2";
 import { useNavigate } from "react-router-dom";
 
@@ -59,8 +59,6 @@ const Details=()=>{
       axios.get('https://jsonplaceholder.typicode.com/posts').then((res)=>{
 
         setUsers(res.data)
-
-        console.log(res.data);
         
 
       })

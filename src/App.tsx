@@ -1,11 +1,8 @@
-import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect } from 'react'
 import './App.css'
 import Login from './login'
 import Details from './details'
 import { Route,Routes, useNavigate } from 'react-router-dom'
-import Comp2 from './comp2'
 
 function App() {
 

@@ -1,5 +1,3 @@
-import FormControlLabel from "@mui/material/FormControlLabel"
-import { Checkbox } from "@mui/material"
 import { useState } from "react"
 
 const initial =[
@@ -50,7 +48,7 @@ function Comp2(){
 
      if(openIndex.includes(indx)){
 
-     let filt= openIndex.filter((i,index)=>{
+     let filt= openIndex.filter((i)=>{
 
         return i!=indx
 
